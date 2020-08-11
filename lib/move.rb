@@ -14,6 +14,6 @@ def update_array_at_with(array, index, value)
   end
   
   def update_array_at_with(board, 1, "X")
-    board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
+    board[1] = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
 
 end
