@@ -9,10 +9,10 @@ end
 # code your input_to_index and move method here!
 
 def update_array_at_with(array, index, value)
-  array[0] = X
+  array[index] = value
   end
   
   def update_array_at_with(board, "O", "X")
-    board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
+    board[0] = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
 
 end
